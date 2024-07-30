@@ -1,9 +1,12 @@
 import "./App.css";
+import RandomColor from "./components/randomColor";
 
 function App() {
   return (
     <>
-      <div>Let the colors change</div>
+      <div>
+        <RandomColor />
+      </div>
     </>
   );
 }
